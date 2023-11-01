@@ -8,7 +8,12 @@
 *:focus {
     outline: none;
 }
+html {
+    //this is page default font size
+    font-size: 100%;
+}
 body {
+    margin: 30px;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }

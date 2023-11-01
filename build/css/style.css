@@ -11868,9 +11868,30 @@ textarea.form-control-lg {
   outline: none;
 }
 
+html {
+  font-size: 100%;
+}
+
 body {
+  margin: 30px;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+}
+
+.u-letter-space-big {
+  letter-spacing: 1rem;
+}
+
+.u-letter-space-small {
+  letter-spacing: 0.5rem;
+}
+
+header {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
+  background-position: top;
+  background-size: cover;
+  height: 95vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
