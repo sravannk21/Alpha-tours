@@ -1,6 +1,10 @@
 //IMPORT BOOTSTRAP-5
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+//FONTAWESOME
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
 //FONT family
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,400&display=swap');
 
@@ -14,6 +18,10 @@
 
 //LAYOUTS
 @import "./layouts/_header";
+@import "./layouts/_feature";
 
 //COMPONENTS
 @import "./components/_composition";
+
+//HOME
+@import "./page/_home";
