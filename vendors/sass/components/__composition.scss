@@ -1,0 +1,10 @@
+.composition {
+    &__photo {
+        transition: all .1s ease;
+        &:hover {
+            outline: .7rem solid $color-primary;
+            outline-offset: 1.3rem;
+            transform: scale(1.1);
+        }
+    }
+}

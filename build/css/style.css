@@ -11873,7 +11873,6 @@ html {
 }
 
 body {
-  margin: 30px;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
@@ -11886,12 +11885,27 @@ body {
   letter-spacing: 0.5rem;
 }
 
+.heading-secondary {
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 header {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg);
   background-position: top;
   background-size: cover;
   height: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.composition__photo {
+  transition: all 0.1s ease;
+}
+.composition__photo:hover {
+  outline: 0.7rem solid #55c57a;
+  outline-offset: 1.3rem;
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
